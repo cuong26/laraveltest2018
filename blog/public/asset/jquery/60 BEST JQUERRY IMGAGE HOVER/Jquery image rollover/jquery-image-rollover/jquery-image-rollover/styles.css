@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+
+/* WebDesignAndSuch.com Demo */
+
+/* demo page styles */
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	background:url(images/back.jpg);
+	margin: 0; 
+	padding: 0;
+	color: #000;
+}
+
+#container {
+	width: 780px;  
+	background:#fff;
+	margin: 0 auto; 
+	-webkit-box-shadow: 0px 0px 15px #000;
+	-moz-box-shadow: 0px 0px 15px #000;
+	height:720px
+}
+#content {padding: 0 20px; }
+
+img {border:0px;}
+
+a:link, a:visited {color:#88b0dc; text-decoration:none}
+a:hover, a:active {color:#CC5500; text-decoration:none}
+
+.info {width:800px; margin:0 auto; color:#666; margin-top:50px; text-align:center; font-size:12px; padding-bottom:25px;}
+.info a:link, .info a:visited {color:#ccc}
+.info a:hover, .info a:active {color:#fff}
+
+h2 {font-size:22px; color:#369; text-align:center}
+.content {margin:40px 0 0 0; }
+
+.imageOuter {width:350px; float:left; margin:0 37px 0 0}
+
+
+
+/* demo specific styles */
+
+
+/* jquery-method */
+
+span.roll {
+    background:url(images/mag.png) center center no-repeat #000;
+    height: 346px;
+    position: absolute;
+    width: 347px;
+    z-index: 10;	
+	-webkit-box-shadow: 0px 0px 4px #000;
+	-moz-box-shadow: 0px 0px 4px  #000;
+	box-shadow: 0px 0px 4px  #000; 
+} 
+ 
+ 
+ 
+
+
+
+
+
+
+/* css-method */
+
+
+span.rollover {
+	opacity: 1;
+	-o-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-webkit-transition: -webkit-transform 1s;
+	background:url(images/mag.png) center center no-repeat #000;
+	cursor: pointer;
+	height: 346px;
+	width: 347px;
+	position: absolute;
+	z-index: 10;
+	opacity: 0;
+}
+
+span.rollover:hover {
+	opacity: .7;
+	-o-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-webkit-transition: -webkit-transform 1s;
+	-webkit-box-shadow: 0px 0px 4px #000;
+	-moz-box-shadow: 0px 0px 4px #000;
+	box-shadow: 0px 0px 4px #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+

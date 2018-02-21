@@ -1,0 +1,82 @@
+html,body{
+	background:#222222;
+}
+div.container{
+	width:800px;
+	margin:40px auto;
+}
+div.thumb{
+    position:relative;
+	width:160px;
+	height:160px;
+	margin:30px 40px;
+	overflow:hidden;
+	border:5px solid #313131;
+	float:left;
+}
+div.divLeft, div.divRight{
+	width:90px;
+	height:160px;
+	overflow:hidden;
+	position:relative;
+    top:-160px;
+	overflow:hidden;
+	float:left;
+}
+div.divLeft{
+	margin-right:-10px;
+}
+div.divLeftImage{
+	width:80px;
+	height:100%;
+	float:left;
+}
+div.divLeftShadow{
+	width:10px;
+	height:100%;
+	float:left;
+	background:transparent url('shadow.png') repeat-y 0 0;
+}
+div.divRight{
+	width:80px;
+	background-position:-80px 0;
+}
+.thumbnail-shadow {
+	float:left;
+	height:33px;
+	position:relative;
+	top: -320px;
+	width:100%;
+}
+
+div.someContent{
+	position:relative;
+    width:160px;
+	height:150px;
+	padding:10px 0px 0px;
+	font-size:12px;
+	font-family:Arial;
+	text-align:justify;
+	background:transparent url(thumbnail-overlay.png) no-repeat scroll 0px -167px;
+
+}
+div.someContent div.content{
+	color:#CCC;
+	height:126px;
+	font-size:11px;
+	padding:0 10px 0 20px;
+}
+div.someContent div.more{
+	background-image:url(readmore-bg.png);
+	bottom:0;
+	float:right;
+	height:16px;
+	padding:5px 5px 3px 20px;
+	position:relative;
+	right:0;
+	width:45px;
+}
+a:link, a:hover,a:active, a:visited{
+	color:#2F9DFF;
+	text-decoration:none;
+}
