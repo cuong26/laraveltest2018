@@ -1,0 +1,44 @@
+ <style>
+        .widget .popular-news li .thumb img {
+            max-width: 100px;
+        }
+        .post-wrap .featured-post {
+            width: 100%;
+            height: 100%;
+        }
+        .flat-hover-zoom .entry-image {
+            max-height: 100%;
+            width: auto;
+        }
+        .post-wrap .post .content-post {
+            height: 250px;
+        }
+        .widget .teacher-news li .thumb {
+            max-height: 100px;
+        }
+        .widget-teacher ul li .thumb img {
+            max-height: 100px;
+            width: 100px;
+        }
+        .entry-content p {
+            font-family: arial;
+        }
+        .widget .popular-news li .thumb {
+    float: none;
+    
+        }
+        #thumb img {
+            max-width: 16%;
+        }
+        .image-cs img {
+            width: 150px;
+            height: 150px;
+        }
+        .featured-post img {
+            width: 370px;
+            height: 265px;
+        }
+        .wrap-img img {
+            height: 80px;
+        }
+    </style>
